@@ -22,6 +22,7 @@ import { SwiperModule } from 'swiper/angular';
 import { ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { MaterialModule } from './modules/material/material.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -46,6 +47,7 @@ import { MaterialModule } from './modules/material/material.module';
 
 
 
+
   ],
   imports: [
     BrowserModule,
@@ -53,7 +55,8 @@ import { MaterialModule } from './modules/material/material.module';
     SwiperModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
